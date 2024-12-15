@@ -1,7 +1,7 @@
 /* Body y Fondo General */
 body {
     font-family: Arial, sans-serif;
-    background-color: #121212;
+    background-color: #000000;
     color: #000000;
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: #222;
+    background-color: #000000;
 }
 
 .navbar-nav .nav-link {
