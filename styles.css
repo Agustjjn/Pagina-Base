@@ -1,0 +1,93 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #000000, #1a1a1a);
+    color: #ddd;
+    line-height: 1.6;
+}
+
+/* Contenedor del título */
+.title-container {
+    background: rgba(128, 128, 128, 0.5); /* Fondo gris semitransparente */
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.title-container h1 {
+    margin: 0;
+    font-size: 42px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Sombra para el texto */
+}
+
+/* Contenedor principal */
+.main-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px;
+    margin-top: 70px;
+    background-image: url("templates/Fondito.png");
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.main-container:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al hacer hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Añade sombra al hacer hover */
+}
+
+/* Estilo del contenido dentro del contenedor */
+.tattoo-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.tattoo-info img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.tattoo-info img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al hacer hover */
+}
+
+.tattoo-info p {
+    max-width: 600px;
+    font-size: 20px;
+    color: #f4f4f4; /* Blanco más suave */
+    text-align: center; /* Justificar el texto para una lectura más profesional */
+    padding: 15px;
+    background: rgba(150, 150, 150, 0.562); /* Fondo semitransparente para destacar */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para resaltar */
+}
+
+
+/* Pie de página */
+footer {
+    background: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
